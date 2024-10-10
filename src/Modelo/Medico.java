@@ -33,8 +33,7 @@ public class Medico {
 	public double CalcularIMC(Paciente paciente) {
 		double estatura = paciente.getEstatura();
 		float peso = paciente.getPeso();
-		double valor = peso / (estatura * estatura);
-		return valor;
+		return peso / (estatura * estatura);
 	}
 
 	
